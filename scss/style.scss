@@ -1,0 +1,231 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Anton', sans-serif;
+	padding-top: 70px;
+	background-color:#FF8F00 ;
+	color: black;
+	
+}
+
+#inicio{
+	border: solid 3px;
+	margin: auto;
+	padding: 60px;
+	background-color:#FF8F00 ;
+	border: 2px
+		#menu {
+			border: solid 2px;
+			background-color: transparent;
+			font-family: 'Anton', sans-serif;
+		}
+		#logo {
+			transition: .4s all;
+				&:hover {
+					transform: rotate(360deg);	
+				}
+		}
+		#portada{
+			&:hover {
+				transform: scale(1.1);
+				transition: all 0.5s ease;
+			}
+		}
+		h1{
+			text-shadow: 4px -1px  #0a0a0a;
+			font-family: 'Anton', sans-serif;
+			text-transform: uppercase;
+			letter-spacing: 4px;
+			color: #186c19;
+			font-size: 33px;
+			font-weight: bold;
+			text-align: center;
+			line-height: 45px;
+			margin-top: 50px;
+		}
+		#boton{
+			box-shadow: 0 5px 6px black;
+			height: 35px;
+			color: black;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			font-family: 'Roboto Condensed', sans-serif;
+			font-weight: bold;
+				&:hover {
+					box-shadow: 1px 5px 2px 0 #0a0a0a;
+					transform: scale(1.1);
+				}
+		}
+		.insta{
+			width: 15px;
+			height: 15px;
+		}
+		a{
+			text-decoration: none;
+			color:black;
+				&:hover {
+					color: black;
+					text-decoration: none;
+			}
+		}
+}
+
+#queeshappiness {
+	border: solid 3px;
+	margin: auto;
+	padding: 100px;
+	background-color: #186c19;
+		.parrafo1 {
+			white-space: pre-line;
+			font-size: 20px;
+			color: black;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			margin-top: 40px;
+			margin-left: 10px;
+		}
+		.carousel-inner {
+			box-shadow: 0 12px 14px black;
+		}
+		.parrafo2 {
+			padding: 0;
+			margin-left: 100px;
+			margin-right: 100px;
+			font-family: 'Roboto Condensed', sans-serif;
+			font-size: 19px;
+			font-weight: bold;
+			text-align: center;
+			margin-bottom: 50px;
+			white-space: pre-line;
+		}
+		.borde {
+			text-align: right;
+			margin-right: 70px;
+			text-shadow: 4px -1px  #0a0a0a;
+			font-size: 20px;
+			color: #FF8F00;
+			font-family: 'Anton', sans-serif;
+			text-transform: uppercase;
+			font-weight: bold;
+			letter-spacing: 2px;
+				button {
+					border-radius: 10px;
+					margin-right: 70px;
+					margin-bottom: 30px;
+					border: solid	orange;
+					background-color: #FF8F00;
+					font-weight: bold;
+					color:#186c19 ;
+					box-shadow: 0 5px 6px black;
+					letter-spacing: 1px;
+						&:hover {
+							color: black;
+							box-shadow: 1px 5px 2px 0 #0a0a0a;
+							transform: scale(1.1);
+						}
+				}
+		}	
+}
+
+#lasactrices {
+	border: solid 3px;
+	margin: auto;
+	padding: 100px;
+	background-color:#FF8F00 ;
+		.card{
+		  	background-color: #1b1c19;
+		  	box-shadow: 0 7px 8px 0 black;
+		 	padding: 40px;
+		 		p {
+		 			padding: 15px;
+		 			color: #FF8F00;
+		 		}
+		}
+}
+
+#criticas {
+	border: solid 3px;
+	background-color:#FF8F00 ;
+	margin: auto;
+	padding: 50px;
+	h1{
+		padding: 60px;
+		text-shadow: 4px -1px  #0a0a0a;
+		font-family: 'Anton', sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		color: #186c19;
+		font-size: 33px;
+		font-weight: bold;
+		text-align: center;
+	}
+	.img-fluid{
+		&:hover {
+			transform: scale(1.1);
+			transition: all 0.5s ease;
+		}
+	}
+	.carousel-inner {
+			box-shadow: 0 12px 14px black;
+		}
+}
+
+#contacto {
+	margin: auto;
+	padding: 42px;
+	background-color:#FF8F00 ;
+}
+
+.informa {
+	width: 400px;
+	height: 300px;
+	background-image: url("../img/informa.png");
+	white-space: pre-line;
+	font-family: verdana;
+	font-size: 15px;
+	font-weight: bold;
+	color: #1C2A0D; 
+	list-style: none;
+	border-radius: 20px;
+}
+
+
+
+
+@media (max-width: 1024px) {
+	#inicio {
+		h1{
+			text-shadow: 4px -1px  #0a0a0a;
+			font-family: 'Anton', sans-serif;
+			text-transform: uppercase;
+			letter-spacing: 4px;
+			font-size: 20px;
+			line-height: 30px;
+			margin-top: 50px;
+		}
+		#boton{
+			box-shadow: 0 5px 6px black;
+			height: 35px;
+			color: black;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			font-family: 'Roboto Condensed', sans-serif;
+			font-weight: bold;
+				&:hover {
+					box-shadow: 1px 5px 2px 0 #0a0a0a;
+					transform: scale(1.1);
+				}
+		}
+		.insta{
+			width: 15px;
+			height: 15px;
+		}
+		a{
+			text-decoration: none;
+			color:black;
+				&:hover {
+					color: black;
+					text-decoration: none;
+			}
+		}
+	}
+}
